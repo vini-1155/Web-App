@@ -1,0 +1,144 @@
+.container-disp {
+    background: #6390b1;
+    width: 100%;
+    height: 200px;
+}
+
+#testimonials {
+    background: #e0e0e0;
+    color: #414141;
+}
+
+.test_img {
+    width: 340px;
+    border-radius: 50%;
+    padding: 90px 30px;
+}
+
+.press_img {
+    padding: 10px 50px 20px;
+    width: 250px;
+}
+
+.carousel-item {
+    padding: 40px 100px 30px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Anton', sans-serif;
+    width: 100%;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+body {
+    text-align: center;
+    color: black;
+}
+
+p {
+    /* color: rgb(8, 28, 28); */
+}
+
+
+
+
+#p {
+    text-decoration: none;
+
+}
+
+.in {
+    margin: 20px 38px;
+}
+
+.container-getStarted {
+    background: #f69cb1d4;
+}
+
+.container-contact {
+    padding-top: 30px;
+}
+
+.service {
+    background: #ffffff;
+
+}
+
+#asrve {
+    color: black;
+}
+
+.col-lg-3 {
+    background: #ffffff;
+    border-radius: 50%;
+    margin-top: 10px;
+    padding-left: 2px;
+}
+
+.service-con {
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+    background: #fefefe;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.price-button {
+    height: 250px;
+    background: #fbfbfb;
+    /* margin-bottom: 20px; */
+    padding-top: 170px;
+}
+
+.service-con {
+    padding: 40px;
+    background: rgb(255, 255, 255);
+
+}
+
+.icons {
+    overflow: initial;
+}
+
+.bottom-buttons {
+    padding-top: 100px;
+}
+
+#press {
+    background: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+    color: rgb(48, 48, 48);
+}
+
+.faq {
+    background: #e2e2e2;
+    font-family: sans-serif;
+    text-align: left;
+    position: relative;
+    color: rgb(50, 50, 50);
+    padding: 35px;
+
+}
+
+.faqq {
+    line-height: 2.5rem;
+}
+
+footer {
+    background: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+    line-height: 2rem;
+    color: rgb(54, 54, 54);
+}

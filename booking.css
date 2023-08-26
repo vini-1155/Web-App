@@ -1,0 +1,30 @@
+.row {
+    width: 1300px;
+    padding-top: 150px;
+}
+
+.p {
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+}
+
+
+.head {
+    font-size: 2rem;
+}
+
+.bk {
+    padding-top: 40px;
+}
+
+* {
+    background: #ccbdbd;
+    font-size: 1.3rem;
+    font-family: monospace;
+}
+
+em {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 200px;
+}

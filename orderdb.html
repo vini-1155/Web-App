@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        body {
+            padding-top: 170px;
+        }
+
+        .all {
+            margin-top: 200px;
+            width: 700px;
+        }
+
+        .bt {
+            padding-top: 70px;
+        }
+    </style>
+</head>
+<center>
+
+
+    <body>
+        <form action="http://localhost/SHREENIDHI/orderdb.php" method="post">
+            <div class="all">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">Pick Up point</span>
+                    <input type="text" name="pickadd" class="form-control" placeholder="Address" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                </div>
+
+                <div class="input-group mb-3">
+                    <input type="text" name="deladd" class="form-control" placeholder="Address"
+                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <span class="input-group-text" id="basic-addon2">Delivery Point</span>
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon3">Alternative Phone Number</span>
+                    <input type="text" name="num" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                </div>
+
+
+                <div class="input-group mb-3">
+                    <input type="text" name="pin" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    <span class="input-group-text">Delivery Pincode</span>
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">Full Address</span>
+                    <textarea name="fulladd" class="form-control" aria-label="With textarea"></textarea>
+                </div>
+            </div>
+            <div class="col-12 bt">
+                <button class="btn btn-primary " type="submit">Place Order</button>
+            </div>
+        </form>
+    </body>
+</center>
+
+</html>
